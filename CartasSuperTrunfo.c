@@ -52,11 +52,12 @@ int main() {
   //encerramento
 printf("\n Muito Bem! Estes são os dados da carta que acabamos de registrar: \n");
 
-  //estado
- printf("\n Estado:%s\n", estado);
 
   // codigo da carta
   printf("Código da carta:%s\n",codigo);
+
+   //estado
+  printf("Estado:%s\n",estado);
 
   //cidade
    printf("Cidade:%s\n",cidade);
@@ -74,6 +75,72 @@ printf("\n Muito Bem! Estes são os dados da carta que acabamos de registrar: \n
   printf("Pontos turisticos:%d\n",pontot);
 
 printf("\n vamos iniciar o próximo cadastro? não se preocupe só faremos este processo na primeira vez \n");
+printf("\n Preencha as informações da sua segunda carta\n");
+
+  char estado2 [30];
+  char codigo2 [3];
+  char cidade2 [30]; 
+  int populacao2;
+  float area2;
+  float PIB2;
+  int pontot2;
+  // Área para entrada de dados
+
+ //estado
+ printf("Informe qual é o Estado:\n");
+  scanf("%s",&estado2);
+
+  // codigo da carta
+  printf("Informe qual será o código: (ex: A01) \n");
+  scanf("%s",&codigo2);
+
+  //cidade
+   printf("Informe qual é a cidade: \n");
+  scanf("%s",&cidade2);
+
+  // população
+  printf("Informe qual é a população: \n");
+  scanf("%d",&populacao2);
+
+  //area
+   printf("Informe qual é a Área de Km²: \n");
+  scanf("%f",&area2);
+
+  //pib
+   printf("Informe qual é o PIB: \n");
+  scanf("%f",&PIB2);
+
+  //pontos turisticos
+  printf("Informe qual o número de pontos turisticos: \n");
+  scanf("%d",&pontot2);
+  // Área para exibição dos dados da cidade
+
+  //encerramento
+printf("\n Muito Bem! Estes são os dados da carta que acabamos de registrar: \n");
+
+
+  // codigo da carta
+  printf("Código da carta:%s\n",codigo2);
+
+   //estado
+  printf("Estado:%s\n",estado2);
+
+  //cidade
+   printf("Cidade:%s\n",cidade2);
+
+  // população
+  printf("População:%d\n",populacao2);
+
+  //area
+   printf("Área de Km²:%f\n",area2);
+
+  //pib
+   printf("PIB:%f \n",PIB2);
+
+  //pontos turisticos
+  printf("Pontos turisticos:%d\n",pontot2);
+
+printf("\n Obrigada pelo envio dos dados, as duas cartas foram cadastradas e em breve seguiremos para a próxima etapa! \n");
 
 return 0;
 } 
