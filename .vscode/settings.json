@@ -1,0 +1,9 @@
+{
+  "editor.quickSuggestions": { "other": true, "comments": false, "strings": false },
+  "editor.suggest.enable": true,
+  "editor.inlineSuggest.enabled": false,
+  "editor.suggestOnTriggerCharacters": true,
+  "editor.acceptSuggestionOnEnter": "off",
+  "editor.tabCompletion": "off",
+  "C_Cpp.errorSquiggles": "disabled"
+}
